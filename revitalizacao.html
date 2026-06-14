@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+          <link rel="icon" href="imagens/favicon.png" type="image/png">
+          <link  rel="stylesheet" href="style.css" type="text/css">
+           <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+BR:wght@100..400&family=Playwrite+DE+SAS:wght@100..400&display=swap" rel="stylesheet">
+          <title>jardim-botanico</title>
+    </head>
+    <body>
+      <div class="container">
+         <nav>
+             <menu class="naveg">
+              <li> <a class="navegacao" href="Index.html">Início</a></li>
+              <li> <a class="navegacao" href="galeria.html">Galeria</a></li>
+             </menu>
+         </nav>
+      <div class="tudo"> 
+
+         <main>
+            <section>
+        <h1 id="topo">Projeto de Revitalização: Verde de Novo</h1>
+        
+        <p class="p1">O Jardim Botânico é um dos maiores patrimônios ecológicos de nossa região.  Com o
+           crescimento da cidade, tornou-se fundamental realizar uma intervenção para preservar as
+           espécies nativas e garantir um espaço de lazer seguro para todos os cidadãos de Ivaiporã.
+        </p>
+        
+        <img id="jardi" src="imagens/d.jb.png" alt=" de desenho de um jardim" title="jardim">
+        
+        <div class="v">
+        <h2>O que é a Revitalização?</h2>
+        <video width="600" controls>
+            <source src="videos/video1.mp4"
+            type="video/mp4">
+           
+            O seu navegador não suporta a reprodução de
+            vídeos.
+         </video>
+        <p class="frase">Este projeto consiste em uma série de ações coordenadas entre biólogos, paisagistas<br/> e a
+          comunidade para recuperar áreas degradadas e modernizar a infraestrutura do jardim.</p>
+          </div>
+       <h2>Principais Objetivos</h2>
+      
+      
+         <menu>
+         
+         <li class="ob"><img class="re" src="imagens/revitalizacao.png" alt="imagem de plantação de árvores no jardim botânico" width="400" height="200" title="plantação de árvore">
+            <b>Recuperação da Flora:</b> Identificação de espécies invasoras e replantio de árvores<br/> nativas da
+            Mata Atlântica que foram perdidas ao longo dos últimos anos;<br/></li>
+         <li class="ob"><b>Melhoria das Trilhas:</b> As trilhas de caminhada serão niveladas e sinalizadas para facilitar o
+            acesso de idosos<br/> e pessoas com deficiência, promovendo a inclusão no espaço público;</li>
+         
+         <li class="ob">Plantio de mudas nativas;</li>
+         <li class="ob" >Instalação de sinalização educativa;</li>
+         <li class="ob">Recuperação das fontes de água.</li>
+           
+       </menu>
+      <h2>Cronograma de Execução</h2>
+      
+          <ol>
+            <li>Limpeza do terreno e retirada de entulhos;</li>
+            <li>Recuperação do solo e adubação;</li>
+            <li>Plantio e reflorestamento;</li>
+            <li>Inauguração e abertura ao público.</li>
+         </ol>
+      
+        </main>
+        <div class="parte-2">
+
+        
+         <aside>
+            <h1>Como a Comunidade Pode Ajudar?</h1>
+           <p><i>A revitalização não é feita apenas por máquinas. Precisamos que os visitantes respeitem<br/>
+           as áreas isoladas para plantio e participem das oficinas de educação ambiental que<br/>
+           ocorrerão mensalmente.<br/>
+           O Jardim Botânico agradece o apoio de todos!</i>
+           </p>
+         </aside>
+          <h2>Formulário para recrutar voluntários para o projeto "Verde de Novo"</h2>
+
+      <form action="http://127.0.0.1:5500/revitalizacao.html" method="post">
+        <h3>Requisitos do Formulário:</h3>
+         <fieldset>
+            <legend>Dados Pessoais</legend>
+            <Label for="nome">Nome completo<br></Label>
+            <input id="nome" type="text" name="texto" value="nome" required/>
+            <br><label for="idade">Idade<br></label> 
+            <input id="idade" type="number"  name="idade" min="16" max="100"/>
+             <br><Label for="email">Email<br></Label>
+            <input id="email" type="email" name="email" value="exemplo@gmail.com" required/>
+         </fieldset>
+          <fieldset>
+               <legend>Interesses e Disponibilidade</legend>
+               <p>Áreas de Interesse</p>
+               <input id="plantio" type="checkbox" name="interesses" value="Plantio de Mudas">
+               <label for="plantio">Plantio de Mudas</label><br>
+
+               <input id="educacao" type="checkbox" name="interesses" value="Educação Ambiental">
+               <label for="educacao">Educação Ambiental</label><br>
+
+               <input id="limpeza" type="checkbox" name="interesses" value="Limpeza de Trilhas">
+               <label for="limpeza">Limpeza de Trilhas</label><br>
+
+               <input id="foto" type="checkbox" name="interesses" value="Fotografia">
+               <label for="foto">Fotografia</label><br>
+
+               <p>Turno de Preferência</p>
+               <input id="manha" type="radio" name="preferencia" value="manha" required>
+               <label for="manha">Manhã</label><br>
+
+               <input id="tarde" type="radio" name="preferencia" value="tarde" required>
+               <label for="tarde">Tarde</label>
+          </fieldset>
+         <fieldset>
+            <legend>Informação Adicional</legend>
+            <label for="inf">Como nos conheceu?</label>
+            <select id="inf" name="opcoes">
+               <option value="opcao1">Redes Sociais</option>
+               <option value="opcao2">IFPR</option>
+               <option value="opcao3">Amigos</option>
+               <option value="opcao4">Jornal Local</option>
+               <option value="opcao5">Outros</option>
+            </select>
+         </fieldset>
+      </form>
+       
+      <h3>Informações Úteis</h3>
+       <p><q>Este projeto de revitalização é uma iniciativa do <abbr title="Instituto federal do Paraná"><a href="https://ifpr.edu.br/"rel="external noopenner" target="_blank">IFPR</a></abbr> em parceria com o <abbr title="Instituto Ambiental do Paraná">IAP</abbr>.<br/> O trabalho recebe apoio da
+            ONG Amigos da Natureza para garantir a sobrevivência da espécie Pyrostegia venusta em nosso
+            ecossistema.</q></p>
+            <p id="cima"><a href="#topo">Voltar ao topo</a></p>
+            </section>
+       </div>
+       </div>
+               <footer>
+             Está página é produzida de mantida pelos alunos de SI do IFPR de Ivaiporã.
+             <div class="contato">
+            <address>
+                E-mail:
+                <br>
+                <a id="nomes" href="mailto:20261IVA10030005@estudantes.ifpr.edu.br ">Sabrina-O-Alves.ifpr.edu.br</a> <br>
+                <a id="nomes" href="mailto:20261iva10030008@estudantes.ifpr.edu.br ">Gloria-Durval.ifpr.edu.br</a> <br>
+                <a id="nomes"href="mailto:20261iva10030003@estudantes.ifpr.edu.br ">Maria-Eduarda.ifpr.edu.br</a> <br>
+                <b>Rua Max Arthur Greipel, n° 505</b> - Parque Industrial - Ivaiporã/PR
+            </address>
+            </div>
+
+             <div class="creditos">
+               <p>&copy; 2026 Desenvolvido por Sabrina, Glória e Maria</p>
+            </div>
+
+        </footer>
+      </div>
+      
+    </body>
+</html>
